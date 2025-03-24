@@ -1,1 +1,1 @@
-# MostlyEdible
+# Mostly Edible
