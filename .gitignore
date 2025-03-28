@@ -1,0 +1,10 @@
+# Ignore build-only PHP files and other non-production scripts
+Parsedown.php
+build-recipes.php
+
+# Ignore system files
+.DS_Store
+
+# Optional: ignore any logs or temp files
+*.log
+*.tmp

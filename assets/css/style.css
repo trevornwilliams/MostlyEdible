@@ -276,3 +276,79 @@ hr {
   }
 }
 
+/* Sidebar Navigation */
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 220px;
+  height: 100%;
+  background-color: #f9f9f9;
+  border-right: 1px solid #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar .logo img {
+  display: block;
+  margin: 0 auto 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin-bottom: 15px;
+}
+
+.sidebar nav ul li a {
+  color: #24292e;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sidebar nav ul li a:hover {
+  color: #636363;
+}
+
+.site-wrapper {
+  margin-left: 240px; /* account for sidebar width + padding */
+  padding: 20px;
+}
+
+/* recipe list layout */
+#toc ul {
+  margin-top: 1em;
+  padding-left: 0;
+}
+
+#toc li a {
+  display: block;
+  padding: 0.5em 0;
+  border-bottom: 1px solid #ddd;
+  color: #24292e;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+#toc li a:hover {
+  background-color: #f5f5f5;
+  text-decoration: underline;
+}
+
+/* improve section wrapper spacing */
+.site-wrapper section {
+  margin-bottom: 2em;
+}
+
+.site-wrapper h2 {
+  margin-bottom: 0.6em;
+  font-size: 1.6em;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.3em;
+}
