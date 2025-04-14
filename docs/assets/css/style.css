@@ -2,7 +2,7 @@
 
 /* CSS RESET */
 /* http://meyerweb.com/eric/tools/css/reset */
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height: 1.6; font-size: 19px; color: #222;}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 
 /* keep sizes the same, even with borders */
 *, *:after, *:before {
@@ -16,7 +16,6 @@ html, body {
   background-color: white;
 
   font-family:      'Fira Sans', sans-serif;
-  font-size:        18px;
 }
 strong {
   font-weight: 700;
@@ -34,7 +33,7 @@ em {
 
 /* section dividers */
 section {
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
 
 /* recipe title */
@@ -47,14 +46,18 @@ h1 {
 #mainTitle {
   text-align: center;
 }
+#mainTitle {
+  text-align: left;
+}
 
 /* section headers */
 h2 {
-  font-size:      1.5em;
-  font-weight:    700;
-  text-transform: uppercase;
-
-  margin-bottom:  0.6em;
+  font-size: 1.6em;
+  font-weight: bold;
+  text-transform: none;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.3em;
+  margin-bottom: 1em;
 }
 #info h2 {
   display: none;
@@ -72,6 +75,14 @@ p::first-letter, #ingredients li::first-letter, #steps li::first-letter, #notes 
   font-weight: 700;
   margin:      1.1em 0 0.6em 0;
 }
+#ingredients li, #steps li {
+  margin-bottom: 0.75em;
+}
+
+#steps ol {
+  padding-left: 1.5em;
+}
+
 #toc li {
   text-transform: capitalize;
 }
@@ -148,7 +159,8 @@ a:active, a:hover {
 /* specific sections/objects */
 #wrapper {
   width:     90%;
-  max-width: 700px;
+  max-width: 900px;
+  padding:   0 2em;
   margin:    1em auto 4em auto;
 }
 .paren {
@@ -351,4 +363,14 @@ hr {
   font-weight: bold;
   border-bottom: 1px solid #ccc;
   padding-bottom: 0.3em;
+}
+
+#info, #basedon {
+  margin-top: 2em;
+}
+
+section {
+  background: #fafafa;
+  padding: 1.5em;
+  border-radius: 6px;
 }
