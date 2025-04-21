@@ -1,10 +1,5 @@
 # Sorghum Banana Bread
 
-## info
-
-- About 55 minutes
-- 8 servings
-
 ## ingredients
 
 - ½ cup (113 g) butter, softened (Substitute oil for vegan)
@@ -33,5 +28,6 @@
 
 ## notes
 
+- Approximately 55 minutes for 8 servings
 - If using a bundt pan, reduce baking time to around 40 minutes.
 - A toothpick or thin skewer should come out clean when the bread is done.

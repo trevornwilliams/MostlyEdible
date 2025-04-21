@@ -1,10 +1,5 @@
 # Tteokbokki (떡볶이)
 
-## info
-
-- About 30 minutes
-- 4 servings
-
 ## ingredients
 
 - 5 cups (1.2 L) kombu dashi 
@@ -32,6 +27,6 @@
 
 ## notes
 
-- For a vegan version, use vegetable broth or kombu-based dashi, omit the eggs, and consider substituting tofu or mushrooms for added protein.
+- Approximately 30 minutes for 4 servings
 
 ## based on

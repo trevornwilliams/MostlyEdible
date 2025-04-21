@@ -1,10 +1,5 @@
 # Vegan Breakfast Gravy
 
-## info
-
-- About 10 minutes
-- 4 servings
-
 ## ingredients
 
 - 2 tablespoons vegan butter (~28 g)
@@ -24,4 +19,5 @@
 
 ## notes
 
+- Approximately 10 minutes for 4 servings
 - Feel free to adjust the thickness by adding more milk if needed.

@@ -1,16 +1,9 @@
 # Hojicha Chocolate Chip Cookies
 
-## info
-
-- About 30 minutes
-- 15 servings
-
 ## ingredients
 
-- 12 tablespoons (170g) unsalted butter, very soft
-    - For a vegan option, use plant-based butter
+- 12 tablespoons (170g) unsalted butter
 - 1 large egg, room temperature
-    - For a vegan option, use 3 tablespoons aquafaba or 1 flax egg (1 tablespoon ground flaxseed + 3 tablespoons water)
 - 2 teaspoons vanilla extract
 - 1 cup (213g) packed brown sugar
 - ½ cup (100g) granulated white sugar
@@ -34,6 +27,7 @@
 
 ## notes
 
+- Approximately 30 minutes for 15 servings
 - Ensure your butter or vegan butter is very soft for easier mixing.
 - Gently flatten the dough balls slightly if you prefer thinner cookies.
 

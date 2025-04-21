@@ -1,10 +1,5 @@
 # Biscuits
 
-## info
-
-- About 20 minutes
-- 6 servings
-
 ## ingredients
 
 - 1 1/2 cups (180g) all-purpose flour
@@ -20,4 +15,5 @@
 
 ## notes
 
+- Approximately 20 minutes for 6 servings
 - Avoid overworking the dough to keep your biscuits light and fluffy.

@@ -39,7 +39,7 @@ table {
 /* basics */
 html, body {
   background-color: white;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 strong {
   font-weight: 700;
@@ -412,7 +412,10 @@ section {
   padding: 2em;
   margin: 2em 0;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  font-family: Georgia, serif;
+  font-family: 'Raleway', sans-serif;
+  max-width: 1400px;
+  margin-left: 220px;
+  margin-right: auto;
 }
 .recipe-card h1 {
   font-size: 2.2em;
@@ -427,13 +430,24 @@ section {
   margin: 1.5em 0;
 }
 .recipe-card .recipe-columns {
-  display: flex;
-  gap: 2em;
-  justify-content: space-between;
+  display: block;
 }
 .recipe-card #ingredients,
 .recipe-card #steps {
-  width: 50%;
+  width: 100%;
+}
+
+@media screen and (min-width: 820px) {
+  .recipe-card .recipe-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-top: 1em;
+  }
+  .recipe-card #ingredients,
+  .recipe-card #steps {
+    width: 48%;
+  }
 }
 .recipe-card h2 {
   font-size: 1.2em;
@@ -478,4 +492,10 @@ section {
 
 #steps li {
   margin-bottom: 0.6em;
+}
+
+.recipe-card #ingredients ul {
+  list-style: disc outside;
+  margin-left: 1.5em;
+  padding-left: 0;
 }

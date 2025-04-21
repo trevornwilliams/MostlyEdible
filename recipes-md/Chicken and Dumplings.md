@@ -1,23 +1,18 @@
 # Chicken and Dumplings
 
-## info
-
-- About 60 minutes
-- 6 servings
-
 ## ingredients
 
 - 6 chicken thighs or leg quarters
 - 4 stalks of celery
 - 4 carrots
 
-### ROUX
+### *Roux*
 
 - 4 tablespoons all-purpose flour (about 32 g)
 - 4 tablespoons vegetable oil (about 60 mL)
 - 8 1/2 cups chicken stock (2 liters)
 
-### DOUGH
+### *Dumplings*
 
 - 1 3/4 cups all-purpose flour (about 220 g)
 - 1/4 cup yellow cornmeal (about 32 g)
@@ -35,5 +30,5 @@
 6. Season with salt and pepper to taste. Garnish with the reserved crispy chicken skin.
 
 ## notes
-
+- Approximately 20 minutes for 6 servings
 - For best results, keep the heat at a gentle simmer to maintain the dumplings’ shape.
