@@ -346,7 +346,9 @@ hr {
 
 .site-wrapper {
   margin-left: 240px; /* account for sidebar width + padding */
-  padding: 20px;
+  max-width: 75%;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 
 /* recipe list layout */
@@ -387,7 +389,5 @@ hr {
 }
 
 section {
-  background: #fafafa;
-  padding: 1.5em;
-  border-radius: 6px;
+  margin-bottom: 3em;
 }
