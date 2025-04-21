@@ -280,18 +280,31 @@ hr {
     padding-bottom: 0;
     border-bottom: none;
   }
-  #ingredients, #steps {
-    float: left;
+
+  /* Modern recipe columns layout */
+  .recipe-columns {
+    display: flex;
+    gap: 2em;
+    align-items: flex-start;
+    width: 100%;
   }
   #ingredients {
-    width: 33%;
+    float: none;
+    width: 45%;
+    margin-right: 0;
     padding-right: 2em;
+    /* slight separation to the right */
+    box-sizing: border-box;
+  }
+  #steps {
+    float: none;
+    width: 50%;
+    box-sizing: border-box;
+    /* optional left padding for separation */
+    padding-left: 0.5em;
   }
   #ingredients li {
     margin-bottom: 0.4em;
-  }
-  #steps {
-    width: 66%;
   }
 }
 
@@ -390,4 +403,79 @@ hr {
 
 section {
   margin-bottom: 3em;
+}
+
+/* Recipe Card Style */
+.recipe-card {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 2em;
+  margin: 2em 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  font-family: Georgia, serif;
+}
+.recipe-card h1 {
+  font-size: 2.2em;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.recipe-card hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 1.5em 0;
+}
+.recipe-card .recipe-columns {
+  display: flex;
+  gap: 2em;
+  justify-content: space-between;
+}
+.recipe-card #ingredients,
+.recipe-card #steps {
+  width: 50%;
+}
+.recipe-card h2 {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+}
+
+/* Added card-header styles */
+.card-header {
+  text-align: center;
+  margin-bottom: 2em;
+}
+.card-header h1 {
+  margin-bottom: 0.25em;
+}
+.card-header #info {
+  margin-top: 0.5em;
+  font-size: 1em;
+  color: #666;
+}
+
+/* recipe-card notes margin */
+.recipe-card #notes {
+  margin-top: 2em;
+}
+#ingredients ul,
+#ingredients ol,
+#steps ol,
+#notes ul,
+#info ul {
+  margin-bottom: 1em;
+}
+
+#ingredients h3,
+#steps h3 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+#steps li {
+  margin-bottom: 0.6em;
 }
